@@ -1,0 +1,70 @@
+body {
+    background-color: beige;
+}
+
+p {
+    font-family: monospace;
+}
+
+ul > li {
+    display: inline-block;
+    max-width: 33%;
+    list-style-type: none;
+    margin: 40px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: DarkSlateGray;
+    text-decoration: none;
+}
+
+a:hover{
+    color: LightSlateGray;
+    text-decoration: underline;
+}
+
+
+
+
+
+.mainPadding {
+    margin: auto;
+
+    width: 500px;
+    margin-top: 40vh;
+    align-content: center;
+} 
+
+.mainBox {
+    width: 500px;
+    height: 150px;
+    border-style: solid;
+    align-items: center;
+}
+
+.NameHeader {
+    margin: auto;
+    text-align: center;
+    border-style: solid;
+    width: 40%;
+    margin-top: 5px;
+}
+
+.description{
+    margin: auto;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.notableWorksBox {
+    margin-top: 20px;
+    border: solid;
+}
